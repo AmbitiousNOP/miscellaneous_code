@@ -1,0 +1,15 @@
+
+# create
+virtualenv venv
+
+# start the venv
+source venv/bin/activate
+
+# end the venv
+deactivate
+
+# create a txt file with requirements
+pip3 freeze > requirements.txt
+
+# install the requirements
+pip3 install -r requirements.txt

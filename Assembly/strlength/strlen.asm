@@ -28,5 +28,7 @@ calc_strlen:
 	inc rcx			; increment rcx so we can get the next char in string
 	jmp calc_strlen		; re-run this function
 
+
+
 exitfromRoutine:
 	ret	; pops stack to return to proper position in _start

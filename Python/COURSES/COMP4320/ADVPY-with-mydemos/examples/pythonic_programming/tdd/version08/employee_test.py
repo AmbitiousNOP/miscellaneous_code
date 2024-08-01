@@ -1,0 +1,33 @@
+import unittest
+import datetime
+import employee
+
+
+class TestEmployee(unittest.TestCase):
+
+    def test_employee_object_creation(self):
+        emp = employee.Employee("Karen", "Jones", "Manager",
+                                datetime.date.today())
+
+    def test_get_employee_properties(self):
+        emp = employee.Employee("Karen", "Jones", "Manager",
+                                datetime.date.today())
+        self.assertEqual(emp.first_name, "Karen")
+        self.assertEqual(emp.last_name, "Jones")
+        self.assertEqual(emp.job, "Manager")
+        self.assertEqual(emp.hired, datetime.date.today())
+
+    def test_get_employee_id(self):
+        emp = employee.Employee("Karen", "Jones", "Manager",
+                                datetime.date.today())
+        self.assertTrue(hasattr(emp, "emp_id"))
+
+    def test_cannot_change_employee_id(self):
+        emp = employee.Employee("Karen", "Jones", "Manager",
+                                datetime.date.today())
+        with self.assertRaises(AttributeError):
+            emp.emp_id = 99
+
+
+if __name__ == "__main__":
+    unittest.main()

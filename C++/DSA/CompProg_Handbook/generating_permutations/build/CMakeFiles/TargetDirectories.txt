@@ -1,0 +1,4 @@
+/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/build/CMakeFiles/next_perm.dir
+/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/build/CMakeFiles/recursion.dir
+/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/build/CMakeFiles/edit_cache.dir
+/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/build/CMakeFiles/rebuild_cache.dir

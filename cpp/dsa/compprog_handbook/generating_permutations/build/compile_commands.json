@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/next_perm.dir/src/next_perm.cpp.o -c /Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/src/next_perm.cpp",
+  "file": "/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/src/next_perm.cpp",
+  "output": "CMakeFiles/next_perm.dir/src/next_perm.cpp.o"
+},
+{
+  "directory": "/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/recursion.dir/src/recursion.cpp.o -c /Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/src/recursion.cpp",
+  "file": "/Users/cjpenn/miscellaneous_code/C++/DSA/CompProg_Handbook/generating_permutations/src/recursion.cpp",
+  "output": "CMakeFiles/recursion.dir/src/recursion.cpp.o"
+}
+]

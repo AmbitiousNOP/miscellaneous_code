@@ -1,3 +1,7 @@
+*.tgz
+*.tar
+*.tar.gz
+
 # Prerequisites
 *.d
 
@@ -42,3 +46,4 @@
 
 # nix files
 *.nix
+*.lock
